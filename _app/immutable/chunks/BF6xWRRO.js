@@ -1,0 +1,1 @@
+import{E as e,I as t,L as n,R as r}from"./C6kuPdaV.js";var i=r(t(typeof navigator<`u`?navigator.onLine:!0));function a(){return typeof window<`u`&&(window.addEventListener(`online`,()=>n(i,!0)),window.addEventListener(`offline`,()=>n(i,!1))),{get online(){return e(i)}}}var o=a();export{o as t};
