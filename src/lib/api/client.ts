@@ -1,4 +1,4 @@
-const API_BASE = '/api';
+const API_BASE = 'https://englishpod-kids.englishpod-kids.workers.dev/api';
 const RETRY_DELAY = 2000;
 const MAX_RETRIES = 2;
 
