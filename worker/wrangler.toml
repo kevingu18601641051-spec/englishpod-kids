@@ -1,0 +1,18 @@
+name = "englishpod-kids"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "englishpod-kids-db"
+database_id = "555e746b-e926-4b43-9492-3d62f7e82e8c"
+
+[[triggers]]
+crons = ["0 5 * * *"]
+
+[vars]
+OPENAI_API_KEY = ""
+API_KEY = "S8QtkLY8uYX7AK2p5x7aJnYN4c+fdQ3I"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
